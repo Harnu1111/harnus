@@ -1,46 +1,56 @@
 import React from "react";
-import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
-
-
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineSearch } from "react-icons/ai";
+import "../App.css";
 const Navbar = () => {
   return (
-    <div classname="Navbar_container">
-      <div classname="Navbar_wrapper">
-        <i>
-          <button>
-            <MenuOutlinedIcon />
-          </button>
-        </i>
+    <div className="Navbar_container">
+      <div className="Navbar_wrapper">
+        <button>
+          <i className="icon">
+            <AiOutlineMenu />
+          </i>
+        </button>
 
-        <div classname="Navbar_links">
+        <div className="Navbar_links">
           <a href="shop">Shop</a>
           <a href="products">Products</a>
-          <a href="about">About Us</a>
-          <a href="contact">Contact US</a>
+          <a href="about">About us</a>
+          <a href="contact">Contact us</a>
         </div>
 
-        <a href="/home">
-            <h3>
-                HARNUS.
-            </h3>
+        <div className="Navbar_center">
+          <a href="/home">
+            <h3>HARNUS.</h3>
+          </a>
+        </div>
+        <div className="Navbar-right">
+          <div className="Navbar_search" id="search">
+            <input
+              placeholder="Search..."
+              type="search"
+              id="search_input"
+            ></input>
+            <button>
+              <i id="search_btn">
+                <AiOutlineSearch />
+              </i>
+            </button>
+          </div>
 
-            <div classname="Navbar_left">
-                <input placeholder="Search">
-                    <SearchOutlinedIcon/>
-                </input>
-
-                <span classname="cart">
-                    <ShoppingCartOutlinedIcon/>
-                    <p>1</p>
-                </span>
-
-                <button>
-                    Login
-                </button>
-            </div>
-        </a>
+          <span className="Navbar-cart">
+            <button id="cart_btn">
+              <i id="cart">
+                <AiOutlineShoppingCart />
+              </i>
+              <p>5</p>
+            </button>
+          </span>
+          <span className="login" id="login">
+            <button>Login</button>
+          </span>
+        </div>
       </div>
     </div>
   );
