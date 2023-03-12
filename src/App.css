@@ -141,6 +141,20 @@ body {
   width: 100%;
   padding: 0 2em;
   font-size: 1.2em;
+  position: relative;
+}
+
+.Sidebar_title button{
+position: absolute;
+right: 0;
+background-color: transparent;
+border: none;
+color: #fff;
+font-size: 1em;
+cursor: pointer;
+}
+.Sidebar_title button:hover{
+  color: darkgray;
 }
 
 
@@ -155,14 +169,51 @@ body {
   bottom: 0;
 
 }
-::-webkit-scrollbar{
-  max-height: 50%;
+
+
+
+
+.Sidebar_menu::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+.Sidebar_menu::-webkit-scrollbar-track {
+    background: transparent;
+}
+    
+.Sidebar_menu::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-right: none;
+    border-left: none;
 }
 
+.Sidebar_menu::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 10px; 
+}
+
+.Sidebar_menu::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
 .Sidebar_menu h3 {
-  background-color: rgb(232, 225, 225);
+  background-color: rgb(225, 228, 232);
   width: 100%;
   border-radius: 5px;
   margin: 0 -1.2em;
   padding: 0 1em;
+}
+
+
+#Logout{
+  color: red;
+  margin: 0 1.2em;
 }

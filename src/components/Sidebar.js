@@ -1,6 +1,6 @@
 import React from "react";
 import CloseIcon from "@mui/icons-material/Close";
-
+import "../App.css"
 const Sidebar = () => {
   return (
     <div className="Sidebar_container">
@@ -8,9 +8,12 @@ const Sidebar = () => {
         <span className="Sidebar_title">
           <h3>MENU</h3>
 
-          <i>
-            <CloseIcon />
-          </i>
+          <button>
+            <i>
+             
+              <CloseIcon />
+            </i>
+          </button>
         </span>
 
         <div className="Sidebar_menu">
@@ -31,7 +34,7 @@ const Sidebar = () => {
           <p>Visit Our Support</p>
           <p>online Support</p>
 
-          <span className="Logout">
+          <span id="Logout">
             <p>LogOut</p>
           </span>
         </div>
