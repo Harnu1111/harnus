@@ -48,7 +48,9 @@ const Navbar = () => {
             </button>
           </span>
           <span className="login" id="login">
-            <button>Login</button>
+            <button>
+              <p>Login</p>
+            </button>
           </span>
         </div>
       </div>
