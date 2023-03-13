@@ -1,7 +1,13 @@
 import React from "react";
 
+import { useState } from "react";
+
 const Home = () => {
- 
+ const [hover, setHover] = useState;
+
+ const handleMouseEnter = () => {
+  setHover(true);
+ }
 
 
     <div className="Home_container">
