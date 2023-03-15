@@ -360,3 +360,9 @@ text-align: center;
   margin: 2em 1em;
 }
 
+/****** Banner *********/
+.Banner_container{
+  background-image: linear-gradient( to right,
+    rgb(14, 74, 14), black
+  );
+}

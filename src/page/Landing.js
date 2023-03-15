@@ -1,5 +1,6 @@
 import React from "react";
 import Electronics from "../IMAGES/hm.png"
+import "../App.css"
 
 const Landing = () => {
   return (
