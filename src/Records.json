@@ -3,11 +3,8 @@
 			"id": "8320",
 			
 				"name": "PS 4",
-				"itemImg": [
-					"./IMAGES/pro-img/pngfind.com-ps4-cover-png-4164715.webp",
-					"IMAGES/pro-img/41A5YRynOAL._SL1000_.jpg",
-					"IMAGES/pro-img/51tbWVPtckL._AC_SL1500_.jpg"
-				],
+				"itemImg": 	"images/pngfind.com-ps4-cover-png-4164715.webp",
+					
 				"description1": "PS 4 Classic",
 				"description2": "",
 				"newItemPrice": "$850",
@@ -26,12 +23,8 @@
 		{
 			"id": "48719",
 				"name": "iPhone 13",
-				"itemImg": [
-					"./IMAGES/pro-img/6487295_sd.webp",
-					"IMAGES/pro-img/6487295cv1d.jpeg",
-					"IMAGES/pro-img/6487295cv2d.jpeg",
-					"IMAGES/pro-img/6487295cv11d.jpeg"
-				],
+				"itemImg":"images/6487295_sd.webp",
+					
 				"description1": "iPhone 13 - Green",
 				"description2": "",
 				"newItemPrice": "$950",
@@ -52,16 +45,11 @@
 			"id": "668282",
 			
 				"name": "Apple MacBook Pro 2022",
-				"itemImg": [
-					"./IMAGES/pro-img/6450858_sd.webp",
-					"./IMAGES/pro-img/6450858cv1d.jpeg",
-					"./IMAGES/pro-img/6450858cv3d.jpeg",
-					"./IMAGES/pro-img/6450858cv4d.jpeg",
-					"./IMAGES/pro-img/6450858cv7d.jpeg"
-				],
+				"itemImg":	"images/6450858_sd.webp",
+					
 				"description1": "Apple MacBook Pro 2022 - Grey",
 				"description2": "",
-				"newItemPrice": "1200",
+				"newItemPrice": "$1200",
 				"oldItemPrice": "$544",
 				"itemTotal": "630",
 				"ram": 4,
@@ -81,16 +69,11 @@
 			"id": "989183",
 		
 				"name": "JBL Flip 5",
-				"itemImg": [
-					"./IMAGES/pro-img/6356535_sd.png",
-					"./IMAGES/pro-img/6356535cv11d.jpeg",
-					"./IMAGES/pro-img/6356535cv12d.jpeg",
-					"./IMAGES/pro-img/6356535cv13d.jpeg",
-					"./IMAGES/pro-img/6356535ld.jpeg"
-				],
+				"itemImg": "images/6356535_sd.png",
+					
 				"description1": "JBL Flip 5 - Black",
 				"description2": "",
-				"newItemPrice": "2100",
+				"newItemPrice": "$2100",
 				"oldItemPrice": "$544",
 				"itemTotal": "630",
 				"brand": "jbl",
@@ -107,7 +90,7 @@
 			"id": "4929194",
 			
 				"name": "Hisense",
-				"itemImg": "./IMAGES/pro-img/try8.webp",
+				"itemImg": "images/try8.webp",
 				"description1": "Hisense TV",
 				"description2": "",
 				"newItemPrice": "$928",
@@ -127,7 +110,7 @@
 			"id": "473810",
 			
 				"name": "Samsung S22 Ultra",
-				"itemImg": "IMAGES/pro-img/6472835_sd.png",
+				"itemImg": "images/6472835_sd.png",
 					
 				
 				"description1": "Samsung S22 Ultra - Wine",

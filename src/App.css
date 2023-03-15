@@ -294,16 +294,36 @@ body {
 }
 
 /********** Recently **********/
+.Recently_title{
+  margin: 3em;
+  margin-bottom: -0.8em;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #000000;
+position: static;
+  
+}
+
 .Recently{
   display:flex;
  margin: 2em;
+ overflow-x: scroll;
 }
 
-.RecentlyAdded h1{
-  margin: 2em;
-  margin-bottom: -0.8em;
-  font-family:Arial, Helvetica, sans-serif;
+.Recently::-webkit-scrollbar{
+  width: 100% ;
+  height: 2px;
+  background-color: #b2aaaa;
+  
 }
+.Recently::-webkit-scrollbar-thumb{
+height: 2px;
+background-color: #000;
+cursor: pointer;
+}
+.Recently::-webkit-scrollbar-track{
+  width: 1px;
+}
+
 
 .Recently_container {
   /* display: flex; */
@@ -314,14 +334,16 @@ text-align: center;
 }
 
 .Recently_wrapper {
-  width: 20em;
+  width: 22em;
   height: 24em;
   background-color: rgb(229, 234, 242);
 }
 
 .Recently_container img {
-  width: 15em;
-  margin: 2em;
+  max-width: 90%;
+  max-height: 14em;
+  margin:1em ;
+ 
 }
 .Recently_container a{
   text-decoration: none;
@@ -331,7 +353,7 @@ text-align: center;
 
 .Recently_text{
   text-align: start;
-  margin: 2em 1em;
+  margin: 1em 1em;
 }
 .Recently_price{
   text-align: start;
