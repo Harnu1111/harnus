@@ -277,18 +277,64 @@ body {
   background-size: cover;
   text-decoration: none;
   position: relative;
+  transition: width 5s ease-in 1s;
+}
+.Grid:hover {
+  width: 100vh;
 }
 
 .Grid_text {
- color: #fff;
- font-size: 1.2em;
- transform: rotate(-90deg);
- transform-origin: bottom left;
- position: absolute;
- bottom: 1em;
- left: 1em;
+  color: #fff;
+  font-size: 1.2em;
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
 }
 
-/* .Grid :hover{
- background-size: 150%;
-} */
+/********** Recently **********/
+.Recently{
+  display:flex;
+ margin: 2em;
+}
+
+.RecentlyAdded h1{
+  margin: 2em;
+  margin-bottom: -0.8em;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.Recently_container {
+  /* display: flex; */
+text-align: center;
+  margin: 10px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.Recently_wrapper {
+  width: 20em;
+  height: 24em;
+  background-color: rgb(229, 234, 242);
+}
+
+.Recently_container img {
+  width: 15em;
+  margin: 2em;
+}
+.Recently_container a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+.Recently_text{
+  text-align: start;
+  margin: 2em 1em;
+}
+.Recently_price{
+  text-align: start;
+  margin: 2em 1em;
+}
+

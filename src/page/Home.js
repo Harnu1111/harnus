@@ -1,15 +1,7 @@
 import React from "react";
 
-import { useState } from "react";
-
 const Home = () => {
- const [hover, setHover] = useState;
-
- const handleMouseEnter = () => {
-  setHover(true);
- }
-
-
+  return (
     <div className="Home_container">
       <div className="Home_wrapper">
         <div className="Home_first">
@@ -47,7 +39,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+  );
 };
 
-  
 export default Home;
